@@ -20,7 +20,12 @@
  <div class="geheel">
  <h2>Waar kopen</h2>
  <p>De meubels zijn te koop in onderstaande winkels:</p><br>
-    <div>
+<div class="grid__wrapper">
+    <div class="grid__container">
+       
+        <div class="grid__row">
+                <div class="grid__column-8" >
+                    <div class="container">
         <h4>Antwerpen</h4>
          <p> valerie traan<br>
         veerle wenes<br>
@@ -30,9 +35,23 @@
         gallery@valerietraan.be<br>
         www.valerietraan.be<br>
         </p>
-    </div>
+         </div>
+        </div>
     <br>
-        <div>
+        <div class="grid__column-4" >
+                    <div class="container">
+
+<div id="googleMap1" style="width:300px;height:300px"></div>
+
+                    </div>
+                </div>
+            </div>
+            <br>
+
+     <div class="grid__row">
+         <div class="grid__column-8" >
+             <div class="container">
+
             <h4>Berlijn</h4>
             <p> Andreas Murkudis<br>
                 potsdamer Straße 81E<br>
@@ -40,30 +59,65 @@
                 +49_306 80 79 83 06<br>
                 www.andreasmurkudis.com<br>
             </p>
-      </div>
+                    </div>
+            </div>
+
+        <div class="grid__column-4" >
+                    <div class="container">
+
+<div id="googleMap2" style="width:300px;height:300px"></div>
+
+                    </div>
+                </div>
+            </div>
+        
       <br>
-    <div>
+
+       <div class="grid__row">
+         <div class="grid__column-8" >
+             <div class="container">
              <h4>Copenhagen</h4>
             <p> the apartment<br>
                 Overgaden neden Vandet 33, 2nd floor<br>
                 1414 copenhagen K | denmark<br>
                 www.theapartment.dk<br>
             </p>
+    </div>
         </div>
+              <div class="grid__column-4" >
+                    <div class="container">
+
+<div id="googleMap3" style="width:300px;height:300px"></div>
+
+                    </div>
+                </div>
+            </div>
         <br>
-         <div>
+         <div class="grid__row">
+         <div class="grid__column-8" >
+             <div class="container">
              <h4>Gent</h4>
             <p> frederic hooft<br>
-                frederic hooft<br>
                 molenaarstraat<br>
                 9000 gent | belgium<br>
                 +32_477 43 76 06<br>
                 info@frederichooft.be<br>
                 www.frederichooft.be<br>
              </p>
+             </div>
         </div>
+            <div class="grid__column-4" >
+                    <div class="container">
+
+<div id="googleMap4" style="width:300px;height:300px"></div>
+
+                    </div>
+                </div>
+            </div>
         <br>
-           <div>
+           <div class="grid__row">
+         <div class="grid__column-8" >
+             <div class="container">
              <h4>London</h4>
             <p> viaduct <br>
                 James Mair<br>
@@ -73,12 +127,156 @@
                 www.viaduct.co.uk<br>
             </p>
         </div>
-          <div>
-             <h4>London</h4>
-            <p> 
+         </div>
+             <div class="grid__column-4" >
+                    <div class="container">
+
+<div id="googleMap5" style="width:300px;height:300px"></div>
+
+                    </div>
+                </div>
+            </div>
+         <br>
+          <div class="grid__row">
+         <div class="grid__column-8" >
+             <div class="container">
+             <h4>New York</h4>
+            <p> matter<br>
+                Broome Street 405<br>
+                NY 10013 New York<br>
+                +212_343 26 00<br>
+                info@mattermatters.com<br>
+                www.mattermatters.com<br>
             </p>
         </div>
+         </div>
+             <div class="grid__column-4" >
+                    <div class="container">
 
+<div id="googleMap6" style="width:300px;height:300px"></div>
+
+                    </div>
+                </div>
+            </div>
+      <br>
+          <div class="grid__row">
+         <div class="grid__column-8" >
+             <div class="container">
+             <h4>Paris</h4>
+            <p> kreo<br>
+                bended mirror #1<br>
+                Rue Dauphine 31<br>
+                75006 Paris<br>
+                +33_153 10 23 00<br>
+                www.galeriekreo.fr<br>
+            </p>
+        </div>
+         </div>
+             <div class="grid__column-4" >
+                    <div class="container">
+
+<div id="googleMap7" style="width:300px;height:300px"></div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+      </div>
+    </div>
+<script>
+function myMap() {
+  var mapOptions1 = {
+    center: new google.maps.LatLng(51.219270,4.398805),
+    zoom:15,
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+  };
+  var mapOptions2 = {
+    center: new google.maps.LatLng(52.501830,13.364925),
+    zoom:15,
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+  };
+  var mapOptions3 = {
+    center: new google.maps.LatLng(55.673198,12.591402),
+    zoom:15,
+     mapTypeId: google.maps.MapTypeId.ROADMAP
+  };
+  var mapOptions4 = {
+    center: new google.maps.LatLng(51.061750,3.718003),
+    zoom:15,
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+  };
+var mapOptions5 = {
+    center: new google.maps.LatLng(51.522539,-0.109888),
+    zoom:15,
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+  };
+var mapOptions6 = {
+    center: new google.maps.LatLng(40.720818,-73.998052),
+    zoom:15,
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+  };
+  var mapOptions7 = {
+    center: new google.maps.LatLng(48.854817,2.339712),
+    zoom:15,
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+  };
+  var map1 = new google.maps.Map(document.getElementById("googleMap1"),mapOptions1);
+  var map2 = new google.maps.Map(document.getElementById("googleMap2"),mapOptions2);
+  var map3 = new google.maps.Map(document.getElementById("googleMap3"),mapOptions3);
+  var map4 = new google.maps.Map(document.getElementById("googleMap4"),mapOptions4);
+  var map5 = new google.maps.Map(document.getElementById("googleMap5"),mapOptions5);
+  var map6 = new google.maps.Map(document.getElementById("googleMap6"),mapOptions6);
+  var map7 = new google.maps.Map(document.getElementById("googleMap7"),mapOptions7);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDs4UJMh_qVLwzvwqM0eZcc92I430Roxco&callback=myMap"></script>
+        <br> <br><br><br>
+          <footer>   
+  <div class="grid__wrapper">
+      <div class="grid__container">
+         <div class="grid__row">
+            <div class="grid__column-3">
+                <div class="container">
+                    <p> </p>
+                </div>
+            </div>
+            <div class="grid__column-6">
+                <div class="container">
+                <div style="margin-top:15px"><p>Copyright&copy; Han Vandeputte Productions 2017. All rights reserved<p></div>
+                </div>
+            </div>
+            <div class="grid__column-3">
+                <div class="container">
+<div style="margin-top:15px">
+    <a href="https://www.facebook.com">
+    <img class="icon" src="img/facebook.png"></a>
+
+    <a href="https://www.instagram.com/">
+    <img class="icon" src="img/insta.png"></a>
+
+        <a href="https://www.linkedin.com/uas/login">
+    <img class="icon" src="img/in.png"></a>
+
+    <a href="https://nl.pinterest.com/">
+    <img class="icon" src="img/pintrest.png"></a>
+
+      <a href="https://twitter.com/login?lang=nl">
+    <img class="icon" src="img/twitter.png"></a>
+
+         <a href="https://www.youtube.com/">
+    <img class="icon" src="img/youtube.png"></a>
+    </div>
+                </div>
+            </div>
+         </div>
+    </div>
+</div>
+    
+        </footer>
+    </div>
 </div>
 
 

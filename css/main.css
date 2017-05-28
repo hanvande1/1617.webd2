@@ -20,7 +20,7 @@ p {
     color:#5C5B58;
 }
 
-.link {color: hsl(240, 92%, 95%)}
+.link {color: #79C2D1 }
 .geheel {margin-top: 25px;
         margin-left: 25px;
        }
@@ -64,17 +64,18 @@ height:auto;
 .icon {
   height:auto ;
   width: 30px ;
-  float:right;
+  float: left;
 }
 
-.footer { ;
-  
-}
+footer { background-color:hsl(164, 39%, 72%);
+bottom:0;
+position: fixed;
+  }
 
 .overlay {
       position: absolute;
     transition: .5s ease;
-    background-color: hsl(240, 92%, 95%);
+    background-color: #BBB0F5 ;
         transform: translate(0%, -101%);
     -ms-transform: translate(0%, -101%);
 }

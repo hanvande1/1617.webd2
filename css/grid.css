@@ -82,4 +82,5 @@ p {
 .grid__column-1 {
     position : relative;
     padding: 0 12px;
+    float: left;
 }

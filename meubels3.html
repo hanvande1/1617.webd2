@@ -1,11 +1,14 @@
 <html dir="ltr" lang="nl-be" class="no-js" prefix="og: http://ogp.me/ns#">
 <head>
     <meta charset="UTF-8">
-    <title>Art-Niture &larr; Contact</title>
+    <title>Art-Niture &larr; meubels &larr; meubel</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/vertnav.css">
      <link rel="stylesheet" href="css/grid.css">
+     <link rel="stylesheet" href="css/meubels.css">
+     <link rel="stylesheet" href="css/img.css">
+     <link rel="stylesheet" href="css/slide.css">
 </head>
 <body>
       <nav>
@@ -20,5 +23,153 @@
   <div class="geheel">
       <p><a href="meubels.html" class="button">terug naar overzicht</a></p>
           </div>
+<div class="grid__wrapper">
+    <div class="grid__container">
+        <div class="grid__row">
+              <div class="grid__column-4">
+                    <div class="container">
+                      <p></p>
+                    </div>
+              </div>
+                <div class="grid__column-4">
+                    <div class="container">
+
+<div class="slideshow-container">
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 7</div>
+    <img src="img/ligstoel/ligstoel_2.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 7</div>
+    <img src="img/ligstoel/ligstoel_1.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 7</div>
+    <img src="img/ligstoel/ligstoel_3.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext"> 4 / 7</div>
+    <img src="img/ligstoel/ligstoel_4.jpg" style="width:100%">
+  </div>
+
+ <div class="mySlides fade">
+    <div class="numbertext"> 5 / 7</div>
+    <img src="img/ligstoel/ligstoel_5.jpg" style="width:100%">
+  </div>
+
+   <div class="mySlides fade">
+    <div class="numbertext"> 6 / 7</div>
+    <img src="img/ligstoel/ligstoel_6.jpg" style="width:100%">
+  </div>
+
+ <div class="mySlides fade">
+    <div class="numbertext"> 7 / 7</div>
+    <img src="img/ligstoel/ligstoel_7.jpg" style="width:100%">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+   <span class="dot" onclick="currentSlide(4)"></span> 
+  <span class="dot" onclick="currentSlide(5)"></span> 
+  <span class="dot" onclick="currentSlide(6)"></span> 
+  <span class="dot" onclick="currentSlide(7)"></span> 
+</div>
+                </div>
+             </div>
+             <div class="grid__column-4">
+                    <div class="container">
+                      <h4> wire s</h4>
+                     <p> stainless steel<br>
+                      powdercoated</p>
+                    </div>
+          </div>
+        </div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+ <br> <br><br><br>
+   <footer>   
+  <div class="grid__wrapper">
+      <div class="grid__container">
+         <div class="grid__row">
+            <div class="grid__column-3">
+                <div class="container">
+                    <p> </p>
+                </div>
+            </div>
+            <div class="grid__column-6">
+                <div class="container">
+                <div style="margin-top:15px"><p>Copyright&copy; Han Vandeputte Productions 2017. All rights reserved<p></div>
+                </div>
+            </div>
+            <div class="grid__column-3">
+                <div class="container">
+<div style="margin-top:15px">
+    <a href="https://www.facebook.com">
+    <img class="icon" src="img/facebook.png"></a>
+
+    <a href="https://www.instagram.com/">
+    <img class="icon" src="img/insta.png"></a>
+
+        <a href="https://www.linkedin.com/uas/login">
+    <img class="icon" src="img/in.png"></a>
+
+    <a href="https://nl.pinterest.com/">
+    <img class="icon" src="img/pintrest.png"></a>
+
+      <a href="https://twitter.com/login?lang=nl">
+    <img class="icon" src="img/twitter.png"></a>
+
+         <a href="https://www.youtube.com/">
+    <img class="icon" src="img/youtube.png"></a>
+    </div>
+                </div>
+            </div>
+         </div>
+    </div>
+</div>
+    
+        </footer>
+    </div>
+</div>
+
+
+
         </body>
 </html>
